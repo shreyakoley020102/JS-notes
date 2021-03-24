@@ -1,0 +1,13 @@
+API:
+Application Programming Interface
+Piece of software that can be used by another piece of software, in order to allow applications to talk to each other and exchange informations.
+
+Example- DOm API, geolocation API, Own Class API
+
+"Online" API: application running on server, that receives frequests for data and sends data back as response
+
+we can build our own web APIs(require backend development, eg with node.js) or use 3rd party APIs. There is an API for everything
+
+AJAX: asynchronous JS and XML 
+(Now we don't use XML anymore)
+these days most APIs use JSON data format
