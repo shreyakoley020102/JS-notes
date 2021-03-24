@@ -19,3 +19,8 @@ img.classList.add('fadeIn');
 p.style.width='300px';
 
 Examples: Geoloactaion API and AJAX calls
+
+Asynchronous JS and XML: Allows us to communicatewith remote web series in an asynchronous way. With AJAX calls, we can request data from web servers dynamically.
+
+with AJAX we can make a http request to the server, which has the data. The server then sent backs a response containing that data we requested.
+And this back and forth between client and server all happens asynchronously in the background and there can be different types of request.
