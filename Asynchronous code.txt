@@ -4,6 +4,14 @@ execution doesn't wait for an asynchronous task to finish its work
 
 const p = document.querySelector('.p');
 setTimeout(function(){
- p,textContent='My name is Shreya!';
+ p.textContent='My name is Shreya!';
 }, 5000);
 p.style.color='red';
+
+
+const img = document.querySelector('.dog');
+img.src='dog.jpg';
+img.addEventListener('load', function(){
+img.classList.add('fadeIn');
+});
+p.style.width='300px';
