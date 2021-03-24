@@ -1,6 +1,8 @@
 Asynchronous code is executed after a task that runs in the "background finishes"
 it is non-blocking
 execution doesn't wait for an asynchronous task to finish its work
+Callback functions alone do Not make code synchronous
+EventListener alone do Not make code asynchronous
 
 const p = document.querySelector('.p');
 setTimeout(function(){
@@ -15,3 +17,5 @@ img.addEventListener('load', function(){
 img.classList.add('fadeIn');
 });
 p.style.width='300px';
+
+Examples: Geoloactaion API and AJAX calls
